@@ -1,8 +1,8 @@
 import React from 'react'
-import { Route } from 'react-router-dom'
+import { Route , Routes } from 'react-router-dom'
 import Home from '../pages/Home'
 
-const Routes = () => {
+const AllRoutes = () => {
   return (
     <div>
         <Routes>
@@ -12,4 +12,4 @@ const Routes = () => {
   )
 }
 
-export default Routes
+export default AllRoutes
