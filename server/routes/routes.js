@@ -10,6 +10,7 @@ router.get('/', async(req, res) =>{
         res.send(error)    
     } 
 })
+
 router.post('/login', async(req, res)=> {
     const payload = req.body
     try {
