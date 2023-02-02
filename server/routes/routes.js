@@ -1,11 +1,12 @@
 const express = require('express')
 const { userModel } = require('../models/users.model')
+const { prodModel } = require('../models/prod.model')
 const router = express.Router()
 
-router.get('/', async(req, res) =>{
+router.get('/books', async(req, res) =>{
     try {
-        let udata = await userModel.find()
-        res.send(udata)
+        let bdata = await prodModel.find()
+        res.send(bdata)
     } catch (error) {
         res.send(error)    
     } 

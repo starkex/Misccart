@@ -1,0 +1,109 @@
+*{
+    /* margin: 0; */
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navbar-brand {
+    width: 50%;
+    display: flex;
+}
+.navbar-brand>img {
+    width: 20%;
+}
+.prod-img{
+    width: 50%;
+    margin-bottom: 4%;
+}
+.prod-card{
+    border-radius: 15px;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    margin: auto;
+    margin: 2%;
+    padding:6% 2%;
+}
+.selection-area{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6%;
+    margin-bottom: 4%;
+    align-items: center;
+}
+.selection-area>div:nth-child(3){
+    width:30%;
+}
+.selection-area>div:nth-child(3)>button{
+    width:100%;
+    border: none;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #ebebeb;
+    color: rgb(238, 52, 52);
+    padding: 10px 10px 10px 17px;
+}
+.selection-area>div{
+    margin: auto;
+    width: 100%;
+}
+.selection-area>div>select{
+    text-align: center;
+    width: 80%;
+    border: none;
+    padding: 4.6% 2%;
+    background-color: #cecece;
+    color: #000000;
+    outline: none;
+    border-radius: 5px;
+}
+.price-cart-area{
+    display: flex;
+    gap: 2%;
+    justify-content: space-between;
+    margin-top: 6%;
+    margin-bottom: 4%;
+    align-items: center;
+}
+.price-cart-area>div {
+    padding: 0% 5%;
+    text-align: center;
+}
+.price-cart-area>div>button{
+    border: none;
+    padding: 10px 25px;
+    width: 100%;
+    color: #fff;
+    border-radius: 10px;
+    background-color: rgb(238, 52, 52);
+    transition: 0.3s;
+}
+
+.price-cart-area>div>button:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.modal-area{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.modal-area>img{
+    /* display: flex; */
+    width: 70%;
+    margin: auto;
+}
+
+@media only screen and (min-width:360px) and (max-width:480px) {
+    .navbar-brand>img {
+        width: 60%;
+    }
+}
+
+@media only screen and (min-width:481px) and (max-width:1080px) {
+    .navbar-brand>img {
+        width: 40%;
+    }
+}
