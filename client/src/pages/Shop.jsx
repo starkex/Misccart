@@ -25,7 +25,7 @@ const Shop = () => {
             <Container>
                 <Row className='shop-area'>
                     {allbooks.books && allbooks.books.map(e=>{
-                        return <Col lg={4} md={6} key={e._id}>
+                        return <Col lg={3} md={6} className='m-auto' key={e._id}>
                         <ProductCard props={e}/>
                       </Col>
                     })}

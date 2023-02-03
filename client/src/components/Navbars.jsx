@@ -55,6 +55,7 @@ const Navbars = () => {
             </NavDropdown> */}
           </Nav>
           <Nav className='my-auto'>
+              <Nav.Link href="/shop">Shop</Nav.Link>
               <Nav.Link href="#action1" onClick={() => setLgShow(true)}>Login</Nav.Link>
               <Nav.Link href="#action2">Order</Nav.Link>
           </Nav>
