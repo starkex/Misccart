@@ -60,11 +60,19 @@ const AdminDashboard = () => {
             title: 'Book Author',
             dataIndex: 'author',
             key: 'author',
+            width:250,
+            ellipsis: true,
+            render: (text) => (
+                <Tooltip placement="topLeft" title={text}>
+                  {text}
+                </Tooltip>
+              ),
         },
         {
             title: 'Genres',
             dataIndex: 'genres',
             key: 'genre',
+            width:200,
             filters: [
                 {
                   text: 'Romantic',
@@ -93,13 +101,13 @@ const AdminDashboard = () => {
               ],
               filteredValue: filteredInfo.genre || null,
               onFilter: (value, record) => record.genres.includes(value),
-              
               ellipsis: true,
         },
         {
             title: 'Price ( INR )',
             dataIndex: 'actualprice',
             key: 'actualprice',
+            width:150,
             sorter: (a, b) => a.actualprice - b.actualprice,
             sortOrder: sortedInfo.columnKey === 'actualprice' ? sortedInfo.order : null,
             ellipsis: true,
@@ -130,7 +138,7 @@ const AdminDashboard = () => {
                 <Button onClick={clearFilters}>Clear filters</Button>
                 <Button onClick={clearAll}>Clear filters and sorters</Button>
             </Space>
-                <Table columns={columns} dataSource={allbooks.books} onChange={handleChange} />
+                <Table columns={columns} dataSource={allbooks.books} onChange={handleChange} scroll={{ x: 1080}}/>
             </Container>
         </div>
     )
