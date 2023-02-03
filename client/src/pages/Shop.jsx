@@ -9,6 +9,7 @@ import { useEffect } from 'react'
 import ProductCard from '../components/ProductCard'
 import Col from 'react-bootstrap/esm/Col'
 import Row from 'react-bootstrap/esm/Row'
+import ShopFilters from '../components/ShopFilters'
 
 
 const Shop = () => {
@@ -22,6 +23,7 @@ const Shop = () => {
   return (
     <div>
         <Navbars/>
+        <ShopFilters/>
             <Container>
                 <Row className='shop-area'>
                     {allbooks.books && allbooks.books.map(e=>{
