@@ -1,5 +1,4 @@
 import React,{useState} from 'react'
-import Navbars from '../components/Navbars'
 import Footer from '../components/Footer'
 import '../assets/styles/shop.css'
 import Container from 'react-bootstrap/esm/Container'
@@ -10,7 +9,8 @@ import ProductCard from '../components/ProductCard'
 import Col from 'react-bootstrap/esm/Col'
 import Row from 'react-bootstrap/esm/Row'
 import ShopFilters from '../components/ShopFilters'
-import { Pagination } from 'antd'
+// import { Pagination } from 'antd'
+import NavbarHeader from '../components/NavbarHeader'
 
 
 const Shop = () => {
@@ -31,7 +31,7 @@ const Shop = () => {
    
   return (
     <div>
-        <Navbars/>
+        <NavbarHeader/>
         <ShopFilters/>
             <Container>
                 <Row className='shop-area mt-5'>
@@ -45,9 +45,9 @@ const Shop = () => {
             <Container>
               <Row className='m-auto'>
                   {/* <Pagination defaultCurrent={1} total={5} pageSize={12} dataSource={allbooks.books} /> */}
-                  <button onClick={()=>setPage(page-1)}>Prev</button>
+                  {/* <button onClick={()=>setPage(page-1)}>Prev</button>
                   <p>{page}</p>
-                  <button onClick={()=>setPage(page+1)}>Next</button>
+                  <button onClick={()=>setPage(page+1)}>Next</button> */}
               </Row>
             </Container>
         <Footer/>

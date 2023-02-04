@@ -7,11 +7,13 @@ import { Table, Tooltip, Button, Space} from 'antd'
 import Container from 'react-bootstrap/esm/Container'
 import AdminCharts from '../components/AdminCharts'
 import '../assets/styles/charts.css'
+import NavbarHeader from '../components/NavbarHeader'
+import Footer from '../components/Footer'
 
 const AdminDashboard = () => {
     const dispatch = useDispatch()
     const allbooks = useSelector(store => store.getAllBooks)
-    console.log(allbooks.books)
+    // console.log(allbooks.books)
 
     useEffect(() => {
         dispatch(getbooksaction())
@@ -32,12 +34,6 @@ const AdminDashboard = () => {
       const clearAll = () => {
         setFilteredInfo({});
         setSortedInfo({});
-      };
-      const setAgeSort = () => {
-        setSortedInfo({
-          order: 'descend',
-          columnKey: 'genre',
-        });
       };
     const columns = [
         {
@@ -129,7 +125,8 @@ const AdminDashboard = () => {
 
     return (
         <div>
-            <AdminNavbar />
+            {/* <AdminNavbar /> */}
+            <NavbarHeader/>
             <AdminCharts className='mb-5'/>
             <h4 className='list-head'>List of All Books in Inventory</h4>
             <Container className='mt-5 mb-5'>
@@ -143,6 +140,7 @@ const AdminDashboard = () => {
             </Space>
                 <Table columns={columns} dataSource={allbooks.books} onChange={handleChange} scroll={{ x: 1080}}/>
             </Container>
+            <Footer/>
         </div>
     )
 }

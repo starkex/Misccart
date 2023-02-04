@@ -4,11 +4,11 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .navbar-brand {
-    width: 50%;
+    width: 20%;
     display: flex;
 }
 .navbar-brand>img {
-    width: 20%;
+    width: 80%;
 }
 .prod-img{
     width: 50%;

@@ -13,12 +13,13 @@
     color: rgb(77, 77, 77);
     font-size: 18px;
     text-align: left;
-    margin-left: 16%;
+    /* margin-left: 16%; */
 }
 
 .footer-menu{
     list-style-type: none;
     text-align: left;
+    padding: 0;
 }
 .footer-details{
     display: flex;
@@ -54,10 +55,10 @@
     text-align: left;
     color: rgb(118, 118, 118);
     text-decoration: none;
-    font-size: 15px;
+    font-size: 14px;
     transition: 0.3s;
-    letter-spacing: 1px;
 }
 .footer-menu>li{
+    /* font-size: 16px; */
     margin-bottom: 4%;
 }
