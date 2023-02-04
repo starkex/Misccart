@@ -21,7 +21,7 @@ const Categories = () => {
                 </div>
             </Row>
             <Row>
-                <div className='catagories'>
+                {/* <div className='catagories'> */}
                     <div className='category-box1'>
                         <img src={fiction} alt="" />
                         <h5>Fiction</h5>
@@ -52,7 +52,7 @@ const Categories = () => {
                         <h5>Routine</h5>
                         <p>Shop Now</p>
                     </div>
-                </div>
+                {/* </div> */}
             </Row>
         </Container>
     </div>

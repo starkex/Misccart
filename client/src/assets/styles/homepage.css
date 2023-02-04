@@ -69,3 +69,19 @@
 .category-section{
     margin: 5% auto;
 }
+
+@media only screen and (min-width:360px) and (max-width:480px) {
+    .category-box1,.category-box2,.category-box3,.category-box4,.category-box5,.category-box6{
+        width: 42%;
+        margin-bottom: 6%;
+        padding: 4%;
+    }
+}
+
+@media only screen and (min-width:481px) and (max-width:1080px) {
+    .category-box1,.category-box2,.category-box3,.category-box4,.category-box5,.category-box6{
+        width: 28%;
+        margin-bottom: 6%;
+        padding: 2%;
+    }
+}
