@@ -5,6 +5,8 @@ import { getbooksaction } from '../Redux/actions/booksaction'
 import { useEffect } from 'react'
 import { Table, Tooltip, Button, Space} from 'antd'
 import Container from 'react-bootstrap/esm/Container'
+import AdminCharts from '../components/AdminCharts'
+import '../assets/styles/charts.css'
 
 const AdminDashboard = () => {
     const dispatch = useDispatch()
@@ -55,7 +57,6 @@ const AdminDashboard = () => {
                 </Tooltip>
               ),
         },
-        Table.EXPAND_COLUMN,
         {
             title: 'Book Author',
             dataIndex: 'author',
@@ -129,6 +130,8 @@ const AdminDashboard = () => {
     return (
         <div>
             <AdminNavbar />
+            <AdminCharts className='mb-5'/>
+            <h4 className='list-head'>List of All Books in Inventory</h4>
             <Container className='mt-5 mb-5'>
             <Space
                 style={{
