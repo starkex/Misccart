@@ -16,10 +16,18 @@
 .slide1-second>img{
     width: 100%;
 }
-
+.slide2-second>img{
+    width: 91.5%;
+}
+.slide3-second>img{
+    margin: 1px;
+    width: 100%;
+}
 .row-slide{
     display: flex;
     flex-direction: row;
+    margin-top: 7%;
+    margin-bottom: 7%;
 }
 
 .slide1-first{
