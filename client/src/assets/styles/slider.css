@@ -1,0 +1,53 @@
+*{
+    font-family: inter,Helvetica,Arial,sans-serif;
+}
+
+.first-slide,.second-slide,.third-slide{
+    background-image: url('../media/slider/hero-background.jpg');
+}
+
+.slide1-second{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+    gap: 6%;
+}
+.slide1-second>img{
+    width: 100%;
+}
+
+.row-slide{
+    display: flex;
+    flex-direction: row;
+}
+
+.slide1-first{
+    text-align: left;
+}
+
+.slide1-first>h1{
+    font-size: 3.5rem;
+    font-weight: 400;
+}
+
+.slide1-first>button{
+    display: inline-block;
+    font-weight: 400;
+    background-color: #151517;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.75rem 1.2rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.slide1-first>button:hover{
+    background-color: #f7ab3e;
+    color: #151517;
+}
