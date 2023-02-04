@@ -10,7 +10,7 @@ const Footer = () => {
     <div className='footer-section'>
         <Container>
             <Row className='mt-5 mb-5 w-auto'>
-                <Col lg={4} sm={10} md={6} className='mb-4'>
+                <Col lg={4} sm={10} className='mb-4'>
                     <div className='footer-details'>
                          <img src={logo} alt="" />
                           <p>Santushti Shopping Complex Shop No-10 Opp Samrat Hotel, New Delhi, Delhi 110003</p>
@@ -22,7 +22,7 @@ const Footer = () => {
                           </div>
                     </div>
                 </Col>
-                <Col lg={2} sm={5} md={4}>
+                <Col lg={2} sm={6} >
               
                       <p className='footer-head mb-4'>Explore</p>
                       <ul className='footer-menu'>
@@ -33,7 +33,7 @@ const Footer = () => {
                       </ul>
                   
                 </Col>
-                <Col lg={2} sm={5} md={4}>
+                <Col lg={2} sm={6}>
             
                       <p className='footer-head mb-4'>Our Support</p>
                       <ul className='footer-menu'>
@@ -46,8 +46,8 @@ const Footer = () => {
                       </ul>
                 
                 </Col>
-                <Col lg={2} sm={5} md={4}>
-                  <div className='mt-4'>
+                <Col lg={2} sm={5}>
+          
                       <p className='footer-head mb-4'>Policy</p>
                       <ul className='footer-menu'>
                         <li><a href='#'>Return Policy</a></li>
@@ -55,10 +55,10 @@ const Footer = () => {
                         <li><a href='#'>Security</a></li>
                         <li><a href='#'>Privacy</a></li>
                       </ul>
-                    </div>
+                 
                 </Col>
-                <Col lg={2} sm={5} md={4}>
-                  <div className='mt-4'>
+                <Col lg={2} sm={6}>
+                 
                       <p className='footer-head mb-4'>Genres</p>
                       <ul className='footer-menu'>
                         <li><a href='#'>Romantic</a></li>
@@ -68,7 +68,7 @@ const Footer = () => {
                         <li><a href='#'>Routine</a></li>
                         <li><a href='#'>Education</a></li>
                       </ul>
-                    </div>
+                
                 </Col>
             </Row>
         </Container>

@@ -70,11 +70,11 @@ const AdminCharts = () => {
             <Container>
                 <Row className='m-auto mt-5'>
                     <h4 className='mb-5'>Data Based On Genres</h4>
-                    <Col>
+                    <Col sm={12} lg={6}>
                         <Bar {...config} />
                     </Col>
 
-                    <Col>
+                    <Col lg={6} sm={12}>
                         <Pie {...pconfig} />
                     </Col>
                 </Row>

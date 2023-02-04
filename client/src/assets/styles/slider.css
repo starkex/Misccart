@@ -59,3 +59,12 @@
     background-color: #f7ab3e;
     color: #151517;
 }
+
+.linkref{
+    color: #fff;
+    text-decoration: none;
+}
+
+.linkref:hover {
+    color: #151517;
+}

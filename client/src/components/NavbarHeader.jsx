@@ -13,6 +13,8 @@ import { Link } from 'react-router-dom';
 
 const NavbarHeader = () => {
   const [lgShow, setLgShow] = useState(false);
+  const [rlgShow, setRLgShow] = useState(false);
+
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
   const [pass, setPass] = useState('')
@@ -80,8 +82,9 @@ const NavbarHeader = () => {
                   </Nav.Link>
                   <Nav.Link href="#action1">
                     <div className='nav-icons'>
-                      <Link to='/login' className='nav-options'>
-                        <FaShoppingCart className='cart-ico' /> Cart
+                      <Link to='/admin' className='nav-options'>
+                        {/* <FaShoppingCart className='cart-ico' /> */}
+                         Admin
                       </Link>
                     </div>
                   </Nav.Link>
@@ -104,21 +107,70 @@ const NavbarHeader = () => {
       >
         <Modal.Header closeButton>
           <Modal.Title id="example-modal-sizes-title-lg">
-            Large Modal
+            Login
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <div>
+          <div className='login-box'>
             <form action="" className='login-form' onSubmit={handleSubmit}>
+              <label className='mt-3 mb-2'>Username</label>
               <input type="text" placeholder='Enter name' value={name} onChange={e => setName(e.target.value)} />
+              <label className='mt-3 mb-2'>Email</label>
               <input type="email" placeholder='Enter Email' value={email} onChange={e => setEmail(e.target.value)} />
-              <input type="password" placeholder='Enter Password' value={pass} onChange={e => setPass(e.target.value)} />
-              <input type="submit" value='Login' />
+              <label className='mt-3 mb-2'>Password</label>
+              <input className='mb-5' type="password" placeholder='Enter Password' value={pass} onChange={e => setPass(e.target.value)} />
+              <input className='mb-5 loginbutton' type="submit" value='Login' />
             </form>
+          </div>
+          <div className='recover-options'>
+            <p>Don't Have An Account ? <span className='create-acc' onClick={() =>{ 
+              setRLgShow(true)
+              setLgShow(false)
+              }}> Create New Account</span>
+            </p>
+
+            <p>Forgot Password ?</p>
           </div>
         </Modal.Body>
       </Modal>
-
+      <Modal
+        size="lg"
+        show={rlgShow}
+        onHide={() => setRLgShow(false)}
+        aria-labelledby="example-modal-sizes-title-lg"
+      >
+        <Modal.Header closeButton >
+          <Modal.Title  id="example-modal-sizes-title-lg">
+            Register
+          </Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <div className='login-box'>
+            <form action="" className='login-form' onSubmit={handleSubmit}>
+              <label className='mt-3 mb-2'>Select Username</label>
+              <input type="text" placeholder='Enter name' value={name} onChange={e => setName(e.target.value)} />
+              <label className='mt-3 mb-2'>Email</label>
+              <input type="text" placeholder='Enter name' value={name} onChange={e => setName(e.target.value)} />
+              <label className='mt-3 mb-2'>Full Name</label>
+              <input type="email" placeholder='Enter Your Name' value={email} onChange={e => setEmail(e.target.value)} />
+              <label className='mt-3 mb-2'>Address</label>
+              <input type="email" placeholder='Enter Your Address' value={email} onChange={e => setEmail(e.target.value)} />
+              <label className='mt-3 mb-2'>Password</label>
+              <input className='' type="password" placeholder='Enter Password' value={pass} onChange={e => setPass(e.target.value)} />
+              <label className='mt-3 mb-2'>Confirm Password</label>
+              <input className='mb-5' type="password" placeholder='Confirm Password' value={pass} onChange={e => setPass(e.target.value)} />
+              <input className='mb-5 loginbutton' type="submit" value='Register' />
+            </form>
+          </div>
+          <div className='recover-options'>
+            <p>Already Registered ? <span className='create-acc' onClick={()=>{
+                setLgShow(true)
+                setRLgShow(false)
+            }}> Login Now</span></p>
+            <p>Forgot Password ?</p>
+          </div>
+        </Modal.Body>
+      </Modal>
     </>
   );
 }

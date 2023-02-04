@@ -2,3 +2,7 @@
     margin-top: 8%;
     margin-bottom: 2%;
 }
+
+@media only screen and (min-width:340px) and (max-width:480px) {
+    
+}

@@ -20,7 +20,7 @@ const Slider = () => {
               <Col lg={6}>
                 <div className='slide1-first'>
                   <h1>Featured Books of the <span style={{fontWeight:800}}> This Month</span></h1>
-                  <button className='mt-4'>Shop Now</button>
+                  <button className='mt-4'><a href="/shop" className='linkref'> Shop Now </a></button>
                 </div>
               </Col>
               <Col lg={6}>
@@ -38,7 +38,7 @@ const Slider = () => {
               <Col lg={6}>
                 <div className='slide1-first'>
                   <h1>Limited Deal of the <span style={{fontWeight:800}}> Week !! </span></h1>
-                  <button className='mt-4'>Shop Now</button>
+                  <button className='mt-4'><a href="/shop" className='linkref'> Shop Now </a></button>
                 </div>
               </Col>
               <Col lg={6}>
@@ -56,7 +56,7 @@ const Slider = () => {
               <Col lg={6}>
                 <div className='slide1-first'>
                   <h1>Get 40% off Now on <span style={{fontWeight:800}}>This Combo </span></h1>
-                  <button className='mt-4'>Shop Now</button>
+                  <button className='mt-4'><a href="/shop" className='linkref'> Shop Now </a></button>
                 </div>
               </Col>
               <Col lg={6}>
