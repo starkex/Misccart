@@ -9,20 +9,20 @@
 <table>
   <tr>
     <td valign="top" width="45%">
+      
       ### Frontend  
-      <div >  
-      <img style="margin: 10px" src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React" height="50" />  
-      <img style="margin: 10px" src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg" alt="Bootstrap" height="50" />  
-      <img style="margin: 10px" src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg" alt="CSS3" height="50" />  
-      <img style="margin: 10px" src="https://upload.wikimedia.org/wikipedia/commons/8/82/Devicon-html5-plain.svg" alt="HTML5" height="50" />  
-      <img style="margin: 10px" src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" alt="JavaScript" height="50" />  
-      <img style="margin: 10px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Apache_NetBeans_Logo.svg/888px-Apache_NetBeans_Logo.svg.png"     alt="Netbeans" height="50" />  
-      <img style="margin: 10px" src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python" height="50" /> 
-      <img style="margin: 10px" src="https://cdn.icon-icons.com/icons2/2108/PNG/512/java_icon_130901.png" alt="Java" height="50"/> 
-      </div>
+      
+        <div >  
+        <img style="margin: 10px" src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React" height="50" />  
+        <img style="margin: 10px" src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg" alt="Bootstrap" height="50" />  
+        <img style="margin: 10px" src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg" alt="CSS3" height="50" />  
+        <img style="margin: 10px" src="https://upload.wikimedia.org/wikipedia/commons/8/82/Devicon-html5-plain.svg" alt="HTML5" height="50" />  
+        <img style="margin: 10px" src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" alt="JavaScript" height="50" />  
+        </div>
      </td>
 
     <td valign="top" width="45%">
+      
         ### Backend  
         <div >  
         <img style="margin: 10px" src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" alt="JavaScript" height="50" />  
