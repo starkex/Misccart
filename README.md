@@ -8,10 +8,9 @@
 
 <table>
   <tr>
-    <td valign="top" width="45%">
+    <td valign="top" width="40%">
       
       ### Frontend  
-      
         <div >  
         <img style="margin: 10px" src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React" height="50" />  
         <img style="margin: 10px" src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg" alt="Bootstrap" height="50" />  
@@ -21,7 +20,7 @@
         </div>
      </td>
 
-    <td valign="top" width="45%">
+    <td valign="top" width="40%">
       
         ### Backend  
         <div >  
@@ -30,6 +29,7 @@
         <img style="margin: 10px" src="https://img.icons8.com/color/256/nodejs.png" alt="NodeJs" height="50" />
         <img style="margin: 10px" src="https://img.icons8.com/ios/256/express-js.png" alt="ExpressJs" height="30" />  
         </div>
+      
     </td>
   </tr>
 
