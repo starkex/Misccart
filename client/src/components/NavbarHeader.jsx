@@ -133,6 +133,7 @@ const NavbarHeader = () => {
           </div>
         </Modal.Body>
       </Modal>
+
       <Modal
         size="lg"
         show={rlgShow}
@@ -167,6 +168,40 @@ const NavbarHeader = () => {
                 setLgShow(true)
                 setRLgShow(false)
             }}> Login Now</span></p>
+            <p>Forgot Password ?</p>
+          </div>
+        </Modal.Body>
+      </Modal>
+
+      <Modal
+        size="lg"
+        show={lgShow}
+        onHide={() => setLgShow(false)}
+        aria-labelledby="example-modal-sizes-title-lg"
+      >
+        <Modal.Header closeButton>
+          <Modal.Title id="example-modal-sizes-title-lg">
+            Reset Your Password 
+          </Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <div className='login-box'>
+            <form action="" className='login-form' onSubmit={handleSubmit}>
+              <h6></h6>
+              <label className='mt-3 mb-2'>Email</label>
+              <input type="email" placeholder='Enter Email' value={email} onChange={e => setEmail(e.target.value)} />
+              <label className='mt-3 mb-2'>Password</label>
+              <input className='mb-5' type="password" placeholder='Enter Password' value={pass} onChange={e => setPass(e.target.value)} />
+              <input className='mb-5 loginbutton' type="submit" value='Login' />
+            </form>
+          </div>
+          <div className='recover-options'>
+            <p>Don't Have An Account ? <span className='create-acc' onClick={() =>{ 
+              setRLgShow(true)
+              setLgShow(false)
+              }}> Create New Account</span>
+            </p>
+
             <p>Forgot Password ?</p>
           </div>
         </Modal.Body>
