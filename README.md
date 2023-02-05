@@ -4,7 +4,7 @@
 
 ## Delpoyed Link:- https://store.misccart.com
 
-### All Major Dependencies Used And Process of Basic Setup
+### Tech Stack Used In developing this Full Stack App so far.
 
 <table>
 <tr>
