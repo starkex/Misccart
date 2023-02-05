@@ -2,9 +2,9 @@
 
 <img src='https://github.com/p9168247913/-kindhearted-stick-7099/blob/main/reliance/src/assets/Artboard_14.png'/>
 
-##Delpoyed Link:- https://store.misccart.com
+## Delpoyed Link:- https://store.misccart.com
 
-#All Major Dependencies Used And Process of Basic Setup
+# All Major Dependencies Used And Process of Basic Setup
 
 # Getting Started with Create React App
 
