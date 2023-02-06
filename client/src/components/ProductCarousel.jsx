@@ -30,6 +30,10 @@ const ProductCarousel = () => {
       },[dispatch])
     
   return (
+    <div>
+          <div className='headings-area'>
+              <p className='head-cat2'>Best Selling Books</p>
+          </div>
         <Carousel
              className='prod-slider'
              swipeable={false}
@@ -51,6 +55,7 @@ const ProductCarousel = () => {
               return <div className='item'><ProductCard key={el._id} props={el} /></div>
             })}  
         </Carousel>
+        </div>
   )
 }
 

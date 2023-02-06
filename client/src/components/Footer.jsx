@@ -4,6 +4,8 @@ import Container from 'react-bootstrap/esm/Container'
 import Row from 'react-bootstrap/esm/Row'
 import Col from 'react-bootstrap/esm/Col'
 import logo from '../assets/Artboard_14.png'
+import {AiFillFacebook,AiFillInstagram,AiFillYoutube,AiFillTwitterCircle} from 'react-icons/ai'
+
 
 const Footer = () => {
   return (
@@ -18,7 +20,10 @@ const Footer = () => {
                           <a href="tel:9898989898">+91-9898989898</a>
 
                           <div className='socials'>
-
+                              <AiFillFacebook className='icons'/>
+                              <AiFillInstagram className='icons'/>
+                              <AiFillYoutube className='icons'/>
+                              <AiFillTwitterCircle className='icons'/>
                           </div>
                     </div>
                 </Col>

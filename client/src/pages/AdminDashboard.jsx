@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import AdminNavbar from '../components/AdminNavbar'
+import '../assets/styles/global.css'
+// import AdminNavbar from '../components/AdminNavbar'
 import { useDispatch, useSelector } from 'react-redux'
 import { getbooksaction } from '../Redux/actions/booksaction'
 import { useEffect } from 'react'

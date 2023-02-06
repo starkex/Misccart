@@ -11,8 +11,11 @@
     width: 80%;
 }
 .prod-img{
-    width: 50%;
+    width: 100%;
     margin-bottom: 4%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    height: 360px;
 }
 .prod-card{
     border-radius: 15px;
@@ -20,7 +23,8 @@
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     margin: auto;
     margin: 2%;
-    padding:6% 2%;
+    padding:0% 0% 6% 0%;
+    background-color: white;
 }
 .prod-card>h6{
     white-space: nowrap;
@@ -89,8 +93,9 @@
 .price-tab{
     width: 100%;
     text-align: left;
-    font-size: 18px;
+    font-size: 15px;
     margin-top: 4%;
+    font-weight: 500;
 }
 .price-cartarea-tablet>div:nth-child(2)>button{
     width: 90%;
@@ -168,6 +173,23 @@
     margin-bottom: 5%;
 }
 
+.sale-price{
+    color: gray;
+    text-decoration: line-through;
+    font-size: 16px;
+    margin-left: 6px;
+}
+
+.ratings{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: 400;
+    font-size: 15px;
+}
+.main-title{
+    font-size: 20px;
+}
 @media only screen and (min-width:360px) and (max-width:480px) {
     .navbar-brand>img {
         width: 60%;

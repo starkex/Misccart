@@ -1,7 +1,19 @@
 .prod-slider{
     display: flex;
     width: 70%;
-    margin: 4% auto;
+    margin: auto;
+   margin-top: 1%;
+   margin-bottom: 4%;
+}
+.head-cat2{
+    font-size: 1.875rem;
+    text-align: left;
+    letter-spacing: 1px;
+}
+@media only screen and (min-width:360px) and (max-width:480px){
+    .prod-slider{
+        width: 85%;
+    }
 }
 
 @media only screen and (min-width:481px) and (max-width:1080px){

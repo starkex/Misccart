@@ -62,3 +62,14 @@
     /* font-size: 16px; */
     margin-bottom: 4%;
 }
+.socials{
+    display: flex;
+    justify-content: space-between;
+    gap: 2%;
+    width: 50%;
+    margin-top: 6%;
+}
+.icons{
+    color:rgb(87, 87, 87) ;
+    font-size: 24px;
+}

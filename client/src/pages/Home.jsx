@@ -1,5 +1,6 @@
 import React from 'react'
-import Navbars from '../components/Navbars'
+// import Navbars from '../components/Navbars'
+import '../assets/styles/global.css'
 import Footer from '../components/Footer'
 import Slider from '../components/Slider'
 import Category from '../components/Category';

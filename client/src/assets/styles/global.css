@@ -1,0 +1,10 @@
+body{
+    background-color: #fff7ec;
+}
+
+.headings-area{
+    width: 68%;
+    display: flex;
+    justify-content: start;
+    margin: auto;
+}

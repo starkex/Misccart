@@ -1,6 +1,7 @@
 import React,{useState} from 'react'
 import Footer from '../components/Footer'
 import '../assets/styles/shop.css'
+import '../assets/styles/global.css'
 import Container from 'react-bootstrap/esm/Container'
 import { useDispatch, useSelector } from 'react-redux'
 import { getbooksaction } from '../Redux/actions/booksaction'
