@@ -2,7 +2,36 @@
 
 <img src='https://github.com/p9168247913/-kindhearted-stick-7099/blob/main/reliance/src/assets/Artboard_14.png'/>
 
-#All Major Dependencies Used And Process of Basic Setup
+## Delpoyed Link:- https://store.misccart.com
+
+### Tech Stack Used In developing this Full Stack App so far.
+
+<table>
+<tr>
+<td valign="top" width="40%">
+      
+### Frontend  
+<div >  
+<img style="margin: 10px" src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React" height="50" />  
+<img style="margin: 10px" src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg" alt="Bootstrap" height="50" />  
+<img style="margin: 10px" src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg" alt="CSS3" height="50" />  
+<img style="margin: 10px" src="https://upload.wikimedia.org/wikipedia/commons/8/82/Devicon-html5-plain.svg" alt="HTML5" height="50" />  
+<img style="margin: 10px" src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" alt="JavaScript" height="50" />  
+</div>
+</td>
+<td valign="top" width="40%">
+      
+### Backend  
+<div >  
+<img style="margin: 10px" src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" alt="JavaScript" height="50" />  
+<img style="margin: 10px" src="https://img.icons8.com/color/256/mongodb.png" alt="MongoDB" height="50" />  
+<img style="margin: 10px" src="https://img.icons8.com/color/256/nodejs.png" alt="NodeJs" height="50" />
+<img style="margin: 10px" src="https://img.icons8.com/ios/256/express-js.png" alt="ExpressJs" height="30" />  
+</div>
+</td>
+</tr>
+
+</table>
 
 # Getting Started with Create React App
 
