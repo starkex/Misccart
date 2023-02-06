@@ -1,0 +1,11 @@
+.prod-slider{
+    display: flex;
+    width: 70%;
+    margin: 4% auto;
+}
+
+@media only screen and (min-width:481px) and (max-width:1080px){
+    .prod-slider{
+        width: 90%;
+    }
+}

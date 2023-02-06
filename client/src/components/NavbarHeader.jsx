@@ -14,6 +14,8 @@ import { Link } from 'react-router-dom';
 const NavbarHeader = () => {
   const [lgShow, setLgShow] = useState(false);
   const [rlgShow, setRLgShow] = useState(false);
+  const [flgShow, setFLgShow] = useState(false);
+
 
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
@@ -73,14 +75,14 @@ const NavbarHeader = () => {
 
                 {/* <Nav className="justify-content-end flex-grow-1 pe-3"> */}
                 <Nav className="justify-content-center pe-3 side-options-nav">
-                  <Nav.Link href="#action1">
+                  <Nav.Link href="">
                     <div className='nav-icons'>
-                      <Link to='/Shop' className='nav-options'>
+                      <Link to='/shop' className='nav-options'>
                         Shop
                       </Link>
                     </div>
                   </Nav.Link>
-                  <Nav.Link href="#action1">
+                  <Nav.Link href="">
                     <div className='nav-icons'>
                       <Link to='/admin' className='nav-options'>
                         {/* <FaShoppingCart className='cart-ico' /> */}
@@ -129,7 +131,12 @@ const NavbarHeader = () => {
               }}> Create New Account</span>
             </p>
 
-            <p>Forgot Password ?</p>
+            <p onClick={() =>{ 
+              setFLgShow(true)
+              setLgShow(false)
+              setRLgShow(false)
+              }}> Forgot Password ?
+            </p>
           </div>
         </Modal.Body>
       </Modal>
@@ -168,15 +175,20 @@ const NavbarHeader = () => {
                 setLgShow(true)
                 setRLgShow(false)
             }}> Login Now</span></p>
-            <p>Forgot Password ?</p>
+            <p onClick={() =>{ 
+              setFLgShow(true)
+              setLgShow(false)
+              setRLgShow(false)
+              }}> Forgot Password ?
+            </p>
           </div>
         </Modal.Body>
       </Modal>
 
       <Modal
         size="lg"
-        show={lgShow}
-        onHide={() => setLgShow(false)}
+        show={flgShow}
+        onHide={() => setFLgShow(false)}
         aria-labelledby="example-modal-sizes-title-lg"
       >
         <Modal.Header closeButton>
@@ -190,20 +202,10 @@ const NavbarHeader = () => {
               <h6></h6>
               <label className='mt-3 mb-2'>Email</label>
               <input type="email" placeholder='Enter Email' value={email} onChange={e => setEmail(e.target.value)} />
-              <label className='mt-3 mb-2'>Password</label>
-              <input className='mb-5' type="password" placeholder='Enter Password' value={pass} onChange={e => setPass(e.target.value)} />
-              <input className='mb-5 loginbutton' type="submit" value='Login' />
+              <input className='mb-5 mt-5 loginbutton' type="submit" value='Submit' />
             </form>
           </div>
-          <div className='recover-options'>
-            <p>Don't Have An Account ? <span className='create-acc' onClick={() =>{ 
-              setRLgShow(true)
-              setLgShow(false)
-              }}> Create New Account</span>
-            </p>
-
-            <p>Forgot Password ?</p>
-          </div>
+  
         </Modal.Body>
       </Modal>
     </>

@@ -8,6 +8,7 @@ import '../assets/styles/slider.css'
 import Container from 'react-bootstrap/esm/Container';
 import Row from 'react-bootstrap/esm/Row';
 import Col from 'react-bootstrap/esm/Col';
+import { Link } from 'react-router-dom';
 
 
 const Slider = () => {
@@ -20,7 +21,7 @@ const Slider = () => {
               <Col lg={6}>
                 <div className='slide1-first'>
                   <h1>Featured Books of the <span style={{fontWeight:800}}> This Month</span></h1>
-                  <button className='mt-4'><a href="/shop" className='linkref'> Shop Now </a></button>
+                  <button className='mt-4'><Link to="/shop" className='linkref'> Shop Now </Link></button>
                 </div>
               </Col>
               <Col lg={6}>
@@ -38,7 +39,7 @@ const Slider = () => {
               <Col lg={6}>
                 <div className='slide1-first'>
                   <h1>Limited Deal of the <span style={{fontWeight:800}}> Week !! </span></h1>
-                  <button className='mt-4'><a href="/shop" className='linkref'> Shop Now </a></button>
+                  <button className='mt-4'><Link to="/shop" className='linkref'> Shop Now </Link></button>
                 </div>
               </Col>
               <Col lg={6}>
@@ -56,7 +57,7 @@ const Slider = () => {
               <Col lg={6}>
                 <div className='slide1-first'>
                   <h1>Get 40% off Now on <span style={{fontWeight:800}}>This Combo </span></h1>
-                  <button className='mt-4'><a href="/shop" className='linkref'> Shop Now </a></button>
+                  <button className='mt-4'><Link to="/shop"className='linkref'> Shop Now </Link></button>
                 </div>
               </Col>
               <Col lg={6}>

@@ -22,7 +22,7 @@ const Footer = () => {
                           </div>
                     </div>
                 </Col>
-                <Col lg={2} sm={6} >
+                <Col lg={2} sm={3} className='mt-4' >
               
                       <p className='footer-head mb-4'>Explore</p>
                       <ul className='footer-menu'>
@@ -33,7 +33,7 @@ const Footer = () => {
                       </ul>
                   
                 </Col>
-                <Col lg={2} sm={6}>
+                <Col lg={2} sm={3} className='mt-4'>
             
                       <p className='footer-head mb-4'>Our Support</p>
                       <ul className='footer-menu'>
@@ -46,7 +46,7 @@ const Footer = () => {
                       </ul>
                 
                 </Col>
-                <Col lg={2} sm={5}>
+                <Col lg={2} sm={3} className='mt-4'>
           
                       <p className='footer-head mb-4'>Policy</p>
                       <ul className='footer-menu'>
@@ -57,7 +57,7 @@ const Footer = () => {
                       </ul>
                  
                 </Col>
-                <Col lg={2} sm={6}>
+                <Col lg={2} sm={3} className='mt-4'>
                  
                       <p className='footer-head mb-4'>Genres</p>
                       <ul className='footer-menu'>
